@@ -11,6 +11,9 @@
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
+  "engines": {
+    "node": ">=14.18.0"
+  },
   "keywords": [
     "react",
     "vite",
