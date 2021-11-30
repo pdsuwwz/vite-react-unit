@@ -1,8 +1,12 @@
 import React from 'react'
 
-const HelloWorld: React.FC = () => {
+interface IProps {
+  msg: string
+}
+
+const HelloWorld: React.FC<IProps> = (props) => {
   return (
-    <div>Hello World!</div>
+    <div>{ props.msg }</div>
   )
 }
 
