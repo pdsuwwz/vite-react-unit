@@ -18,6 +18,6 @@ module.exports = {
     '^.+\\.(js|ts|tsx)$': '@sucrase/jest-plugin',
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
   },
-  testMatch: ['<rootDir>/__tests__/**/*.spec.ts?(x)'],
+  testMatch: ['<rootDir>/__tests__/**/*.(test|spec).ts?(x)'],
   watchPathIgnorePatterns: ['<rootDir>/node_modules']
 }
