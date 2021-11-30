@@ -8,14 +8,17 @@ module.exports = {
   // coverageReporters: ['html', 'lcov', 'text'],
   coveragePathIgnorePatterns: [
     '/node_modules/',
-    'src/main.tsx'
+    'src/main.tsx',
+    '^.+\\.d.ts'
   ],
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}'
   ],
 
   transform: {
-    '^.+\\.(js|ts|tsx)$': '@sucrase/jest-plugin',
+    // TODO: Does not support import.meta.env
+    // '^.+\\.(js|ts|tsx)$': '@sucrase/jest-plugin',
+    '^.+\\.(js|ts|tsx)$': 'babel-jest',
     '.+\\.(css|styl|less|sass|scss|png|jpg|svg|ttf|woff|woff2)$': 'jest-transform-stub'
   },
   testMatch: ['<rootDir>/__tests__/**/*.(test|spec).ts?(x)'],

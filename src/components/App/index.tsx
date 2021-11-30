@@ -4,7 +4,8 @@ import './style.scss'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const [isProd] = useState(import.meta.env.PROD)
+  
   const handleClick = () => {
     setCount((count) => {
       return count + 1
@@ -16,6 +17,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + Typescript + React!</p>
+        <p>is production: { isProd.toString() } </p>
         <p>
           <button type="button" onClick={ handleClick }>
             count is: {count}
