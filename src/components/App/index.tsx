@@ -5,18 +5,24 @@ import './style.scss'
 function App() {
   const [count, setCount] = useState(0)
 
+  const handleClick = () => {
+    setCount((count) => {
+      return count + 1
+    })
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + Typescript + React!</p>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <button type="button" onClick={ handleClick }>
             count is: {count}
           </button>
         </p>
         <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
+          Edit <code>App/index.tsx</code> and save to test HMR updates.
         </p>
         <p>
           <a

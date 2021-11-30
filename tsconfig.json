@@ -1,6 +1,7 @@
 {
   "include": [
-    "src"
+    "src/**/*",
+    "__tests__/**/*"
   ],
   "exclude": [
     "node_modules",
@@ -12,9 +13,11 @@
     "jest"
   ],
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["*"]
+      "@/*": [
+        "src/*"
+      ]
     },
     "types": [
       "@types/node",
