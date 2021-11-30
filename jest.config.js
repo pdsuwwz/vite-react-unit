@@ -5,7 +5,7 @@ module.exports = {
   },
 
   coverageDirectory: 'coverage',
-  coverageReporters: ['html', 'lcov', 'text'],
+  // coverageReporters: ['html', 'lcov', 'text'],
   coveragePathIgnorePatterns: [
     '/node_modules/',
     'src/main.tsx'
