@@ -1,0 +1,16 @@
+/lambda/
+.history
+/coverage
+/mock
+/lib
+/dist
+/public
+/src/assets/
+/node_modules
+*.json
+/e2e
+/assets
+**/index.html
+**/index.*.html
+.github
+.vscode
