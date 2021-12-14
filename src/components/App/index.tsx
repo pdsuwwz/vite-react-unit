@@ -5,7 +5,7 @@ import './style.scss'
 function App() {
   const [count, setCount] = useState(0)
   const [isProd] = useState(import.meta.env.PROD)
-  
+
   const handleClick = () => {
     setCount((count) => {
       return count + 1
