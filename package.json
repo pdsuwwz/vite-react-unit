@@ -8,6 +8,8 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview --host",
+    "lint": "tsc --pretty && eslint . --ext .js,.jsx,.tsx,.ts",
+    "lint:fix": "tsc --pretty && eslint --fix --ext .js,.jsx,.tsx,.ts .",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
