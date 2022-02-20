@@ -6,7 +6,7 @@
 [![codecov](https://codecov.io/gh/pdsuwwz/vite-react-unit/branch/main/graph/badge.svg)](https://codecov.io/gh/pdsuwwz/vite-react-unit)
 [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
 [![Author](https://img.shields.io/badge/Author-Wisdom-9cf)](https://github.com/pdsuwwz)
-[![License](https://img.shields.io/github/license/pdsuwwz/vite-starter?color=blue)](https://github.com/pdsuwwz/vite-starter/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/pdsuwwz/vite-react-unit?color=blue)](https://github.com/pdsuwwz/vite-react-unit/blob/master/LICENSE)
 
 
 Unit Testing for React 17.x + TS
