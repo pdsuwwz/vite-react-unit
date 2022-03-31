@@ -18,21 +18,24 @@ describe('test App', () => {
     expect(getByText(/count is/i)).toBeTruthy()
   })
 
-  it('count is 1 after clicking the button', () => {
+  it('count is 1 after clicking the button', async () => {
+    const user = userEvent.setup()
     const { getByText, getByRole } = render(
       <App />
     )
 
-    userEvent.click(getByText(/count is/i))
+    await user.click(getByText(/count is/i))
     expect(getByRole('button').textContent).toBe('count is: 1')
   })
 
-  it('count is 2 after double clicking the button', () => {
+  it('count is 2 after double clicking the button', async () => {
+    const user = userEvent.setup()
+
     const { getByText, getByRole } = render(
       <App />
     )
 
-    userEvent.dblClick(getByText(/count is/i))
+    await user.dblClick(getByText(/count is/i))
     expect(getByRole('button').textContent).toBe('count is: 2')
   })
 })
