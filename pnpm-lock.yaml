@@ -8,7 +8,7 @@ specifiers:
   '@sucrase/jest-plugin': ^2.2.0
   '@testing-library/dom': ^8.12.0
   '@testing-library/jest-dom': ^5.16.3
-  '@testing-library/react': 13.0.0
+  '@testing-library/react': 13.0.1
   '@testing-library/user-event': ^14.0.0
   '@types/jest': ^27.4.1
   '@types/node': ^17.0.23
@@ -42,7 +42,7 @@ devDependencies:
   '@sucrase/jest-plugin': 2.2.0
   '@testing-library/dom': 8.12.0
   '@testing-library/jest-dom': 5.16.3
-  '@testing-library/react': 13.0.0_react-dom@18.0.0+react@18.0.0
+  '@testing-library/react': 13.0.1_react-dom@18.0.0+react@18.0.0
   '@testing-library/user-event': 14.0.0_@testing-library+dom@8.12.0
   '@types/jest': 27.4.1
   '@types/node': 17.0.23
@@ -1677,8 +1677,8 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/13.0.0_react-dom@18.0.0+react@18.0.0:
-    resolution: {integrity: sha512-p0lYA1M7uoEmk2LnCbZLGmHJHyH59sAaZVXChTXlyhV/PRW9LoIh4mdf7tiXsO8BoNG+vN8UnFJff1hbZeXv+w==}
+  /@testing-library/react/13.0.1_react-dom@18.0.0+react@18.0.0:
+    resolution: {integrity: sha512-zeHx3PohYYp+4bTJwrixQY8zSBZjWUGwYc7OhD1EpWTHS92RleApLoP72NdwaWxOrM1P1Uezt3XvGf6t2XSWPQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: ^18.0.0
