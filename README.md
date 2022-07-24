@@ -9,5 +9,5 @@
 [![License](https://img.shields.io/github/license/pdsuwwz/vite-react-unit?color=blue)](https://github.com/pdsuwwz/vite-react-unit/blob/master/LICENSE)
 
 
-Unit Testing for React 17.x + TS
+Unit Testing for React 18.x + TS
 
