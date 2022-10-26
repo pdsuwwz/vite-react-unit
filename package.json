@@ -41,7 +41,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
-    "@sucrase/jest-plugin": "^2.2.1",
+    "@sucrase/jest-plugin": "^3.0.0",
     "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "13.4.0",
