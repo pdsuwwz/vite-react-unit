@@ -2,7 +2,7 @@
 
 
 [![Deploy](https://github.com/pdsuwwz/vite-react-unit/workflows/Unit-Testing/badge.svg)](https://github.com/pdsuwwz/vite-react-unit/actions/workflows/unit-testing.yml)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/pdsuwwz/vite-react-unit/Unit-Testing/main)](https://github.com/pdsuwwz/vite-react-unit/deployments/activity_log)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/pdsuwwz/vite-react-unit/unit-testing.yml?branch=main)](https://github.com/pdsuwwz/vite-react-unit/deployments/activity_log)
 [![codecov](https://codecov.io/gh/pdsuwwz/vite-react-unit/branch/main/graph/badge.svg)](https://codecov.io/gh/pdsuwwz/vite-react-unit)
 [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
 [![Author](https://img.shields.io/badge/Author-Wisdom-9cf)](https://github.com/pdsuwwz)
