@@ -44,7 +44,7 @@
     "@sucrase/jest-plugin": "^3.0.0",
     "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "13.4.0",
+    "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "^14.1.1",
     "@types/jest": "29.4.0",
     "@types/node": "^18.0.0",
